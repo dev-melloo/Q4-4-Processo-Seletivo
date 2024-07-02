@@ -960,3 +960,9 @@ const gods = [
       features: [],
     },
   ];
+  
+  var novoArray = []
+  for (i in gods){
+      novoArray.push(gods[i].name + " " + "(" + gods[i].class + ")")
+  console.log(novoArray)
+  }
